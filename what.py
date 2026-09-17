@@ -1,0 +1,1 @@
+exec("import random\nnum = random.randint(1,10)\nwhile True:\n  guess = int(input('What is your guess? '))\n  if guess == num: break\n  if guess > num: print('That was too high.')\n  if guess < num: print('That was too low.')\nprint('You guessed it correctly'); input()")
